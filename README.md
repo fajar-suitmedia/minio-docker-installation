@@ -96,4 +96,11 @@ class MinioStorageServiceProvider extends ServiceProvider
             'url'      => env('AWS_URL'),
         ],
 ```
-## register minioServiceProvider di appServiceProvider
+## register minioServiceProvider in config/app.php
+```
+$providers = [
+    ...
+
+App\Providers\MinioStorageServiceProvider::class,
+];
+```
