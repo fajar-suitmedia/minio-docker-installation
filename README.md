@@ -104,3 +104,8 @@ $providers = [
 App\Providers\MinioStorageServiceProvider::class,
 ];
 ```
+
+## konfigurasi minio pada docker dapat dilihat pada repo berikut:
+[https://gitlab.com/suitmedia/sctv-docker/-/tree/production](https://gitlab.com/suitmedia/sctv-docker/-/tree/production)
+
+catatan: gunakan versi minio tertentu/fixed seperti yg terlihat di file docker-compose.yml repo diatas, agar compatible dgn konfigurasi nginx minio yang ada di repo tsb. 
