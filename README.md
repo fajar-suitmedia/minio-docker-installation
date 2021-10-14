@@ -109,3 +109,9 @@ App\Providers\MinioStorageServiceProvider::class,
 [https://gitlab.com/suitmedia/sctv-docker/-/tree/production](https://gitlab.com/suitmedia/sctv-docker/-/tree/production)
 
 catatan: gunakan versi minio tertentu/fixed seperti yg terlihat di file docker-compose.yml repo diatas, agar compatible dgn konfigurasi nginx minio yang ada di repo tsb. 
+
+## contoh konfigurasi di env laravel
+- ASSET_URL=https://domain.static-assets.id/bucket-name
+- AWS_DEFAULT_REGION="ap-southeast-1"
+- AWS_BUCKET=bucket-name
+- AWS_REGION="us-east-2"
